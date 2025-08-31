@@ -2,6 +2,8 @@
 
 ## Overview
 Interactive C program implementing multiple sorting algorithms with visualization and performance testing capabilities.
+
+*Note: Used AI for refactoring the code for better readability and modularity :))*
 ## Compilation & Usage
 ```bash
 gcc -o sorting_algorithms sorting_algorithms.c
@@ -154,5 +156,23 @@ main()
   - Overflow-safe counters (unsigned long long)
   - Individual or all algorithms testing
   - Complete statistics display
+
+## Printf Format Flags
+
+### Common Format Specifiers
+- `%u` - Unsigned integer  
+- `%llu` - Unsigned long long integer (for large counters)
+- `%.6f` - Float/Double with 6 decimal places (for precise timing)
+
+### Width and Precision
+- `%-15s` - Left-aligned string with 15 character width
+- `%-15.6f` - Left-aligned float with 15 width, 6 decimal places
+- `%-20llu` - Left-aligned unsigned long long with 20 width
+
+### Special Characters
+- `\n` - New line
+- `\t` - Tab
+- `\\` - Backslash
+- `\"` - Double quote
 
 
